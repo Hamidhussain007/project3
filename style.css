@@ -1,0 +1,976 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-image: url(22222.jpg);
+    background-size: cover;
+    height: 150vh ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.navbar h3{
+    font-size: 8px;
+    color: white;
+}
+.navbar span{
+    color: rgb(235, 72, 99);
+    font-size: 30px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.home a:hover{
+    color: rgb(235, 72, 99);
+    transition: .5s;
+} 
+
+.srch{
+    border: none;
+    border-radius: 29px;
+    outline: none;
+    height: 30px;
+    margin-top: -4px;    
+}
+.navbar .fa-bars{
+    display: none;
+
+}
+hr{
+    border: 1px solid rgb(3, 3, 36);
+}
+
+.design{
+    margin: 180px 0 0 130px;
+    color: white;
+}
+.design h1{
+    font-size: 50px;
+}
+.design span{
+    margin-left: 75px;
+ }   
+
+.btn{
+    color: white;
+    background: purple;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    margin-left: 280px;
+}
+.btn:hover{
+    color: black;
+    background: rgb(16, 153, 158);
+    transition: .5s;
+}
+.design p{
+    margin-left: 285px;
+    font-size: 10px;
+}
+
+
+/* - FIRST SECTION IS end  */
+
+
+/* SECTION-2 IS START HERE */
+.head-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(42, 42, 102); 
+}
+
+.pera{
+    margin: 30px;
+    
+}
+.per{
+    margin-bottom: 85px;
+    
+} 
+.pera h3{
+    font-size: 16px;
+    color: white;
+
+}
+.pera p{
+    font-size: 15px;
+    color: white;
+    padding: 0 15px 0 0px;
+}
+/* 2nd section is END */
+
+/* SECTION-3 IS START HERE */
+.head-3{
+    background: url(1212.jpg)rgb(211, 83, 126);
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    height: 90vh ;
+    opacity: 0.7;
+    
+}
+.box{
+    margin: 100px 0;
+}
+.box h1{
+    color: white; 
+    font-size: 35px;
+}
+.box p{
+    color: white;
+    font-size: 17px;
+    /* text-align: center;  */
+    width: 400px; 
+    margin-left: 45px;
+}
+.btan{
+    height: 45px;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 15px  90px;
+    color: rgb(235, 72, 99);
+    font-size: 16px;
+}
+.btan:hover{
+    color: white;
+    background: orangered;
+    transition: .5s;
+    opacity: 0.6;
+}
+/* <!-- 3rd section is END --> */
+
+/* SECTION-4 IS START HERE */
+
+.head-4{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(241, 234, 205);
+    align-items: center;
+}
+.img img{
+    width: 500px;
+    height: 400px;
+}
+.get{
+    width: 520px;
+    margin-right: 20px;
+}
+.get h3{
+    font-size: 19px;
+}
+.get span{
+    font-size: 14px;
+}
+/* 4th section is :end */
+
+/* SECTION-5 IS START HERE */
+
+.head-5{
+    display: flex;
+    justify-content: center;
+    background-image: url(11111.jpg);
+    background-size: cover;
+    height: 78vh;
+    color: white;
+}
+.list{
+    margin-top: 70px;
+}
+.list h1{
+    text-align: center;
+    font-size: 35px;   
+}
+.list p{
+    width: 430px;
+    font-size: 17px;
+    text-align: center;
+}
+.batn{
+    width: 270px;
+    height: 45px;
+    background: purple;
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 0 80px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.batn:hover{
+    color: black;
+    background: white;
+    transition: .5s;
+}
+.sit{
+    font-size: 12px;
+    margin: 15px 0 0 120px;
+}
+/* <!-- section 5 is END --> */
+
+/* SECTION-6 IS START HERE */
+
+.head-6{
+    background: url(00000.jpg), rgb(22, 103, 150);
+    background-blend-mode: multiply;
+    height: 120vh;
+    background-size: cover;
+    opacity: 0.7;
+}
+.col{
+    padding: 290px 0 0 200px;
+    color: white;
+}
+.battn{
+    color: white;
+    background: none;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 129px;
+    height: 33px;
+    cursor: pointer;
+}
+.battn:hover{
+    color: red;
+    transition: .5s;
+    border-color: orangered;
+}
+.col h1{
+    font-size: 30px;
+    width: 360px;
+}
+.col span{
+    color: orangered;
+}
+.alt{
+    display: flex;
+    flex-direction: row;
+}
+.alt img{
+    width: 30px;
+    height:30px;
+    border-radius: 30px;
+}
+.alt p{
+    margin: 7px 0 0px 10px;
+    font-size: 13px;
+}
+/* section 6 ia END */
+
+
+/* SECTION-8 IS START HERE */
+
+.head-8{
+    background: rgb(224, 81, 129);
+    height: 70vh;
+
+}
+.see{
+    color: white;
+    padding: 45px 0 0 110px;
+}
+.see h3{
+    font-size: 20px;
+}
+.see p{
+    font-size: 18px;
+    width: 380px;
+}
+
+.butn{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;   
+}
+.butn:hover{
+    color: rgb(22, 16, 14);
+    transition: .5s;
+}
+/* <!-- section 8 is END --> */
+
+/* SECTION-9 IS START HERE */
+
+.head-9{
+    background: rgb(17, 17, 59);
+    height: 50vh;
+    display: flex;
+}
+
+.line{
+    color: white;
+    font-size: 17px;
+    padding: 30px 120px;
+    text-align: center;
+}
+
+/* SECTION-9 IS END HERE */
+
+
+
+/* CSS RESPONSIVE IS START HERE */
+
+
+/* css responsiveness */
+/* NAVBAR responsiveness */
+@media (max-width:795px) {
+    #head{
+        height: 200vh;
+    }
+
+    .navbar span{
+        font-size: 25px;
+    }
+    .home a{   
+        margin: 7px;
+        font-size: 13px;
+    }  
+    .srch{
+        margin-top: 0px;
+        height: 25px;
+        font-size: 10px;  
+    }
+    #head{
+        height: 90vh;
+    }
+}
+
+@media (max-width:610px) {
+    .home{
+        display: none;
+    }
+    .navbar .fa-bars{
+        display: block;
+        color: white;
+    }
+    .navbar span{
+        font-size: 18px;
+    }
+    .navbar h3{
+        font-size: 5px;
+       
+    }
+    #head{
+        height: 65vh;
+    }
+
+}
+/* .navbar end here */
+
+@media (max-width:795px) {
+    .design{
+        margin: 50px 130px;
+    } 
+    .design h1{
+        font-size: 30px;
+    }
+    .design span{
+        margin-left: 45px;
+    }   
+        
+    .btn{
+        height: 30px;
+        width: 140px;
+        margin-left: 135px;
+    }
+    .design p{
+        margin-left: 158px;
+        font-size: 7px;
+    }
+            
+}
+
+@media (max-width:537px){
+    #head{
+        height: 80vh;
+    }
+    .design{
+        margin: 0 0 13px 0;
+        text-align: center;
+    } 
+    .design h1{
+        font-size: 27px;
+    }
+    .design span{
+        margin-left: 5px; 
+    }   
+        
+    .btn{
+        text-align: center;
+        height: 22px;
+        width: 120px;
+        margin: 0px 15px;
+        font-size: 9px;
+    }
+    .design p{
+        margin-left: 5px;
+        font-size: 9px;
+    }
+    .navbar span{
+        font-size: 15px;
+    }
+    .navbar h3{
+        font-size: 3px;
+           
+    }
+    #head{
+        height: 45vh;
+    }
+}
+
+
+
+@media (max-width:370px){
+    #head{
+        height: 35vh;
+    } 
+    .design h1{
+        font-size: 17px;
+    }
+    .btn{
+        height: 21px;
+        width: 89px;
+        font-size: 9px;
+    }
+    .design p{
+        margin-right: 10px;
+        font-size: 8px;
+    }
+} 
+
+/* FIRST SECTION RESPONSIVE IS END HERE*/
+
+
+@media (max-width:600px){
+    .per{
+        margin-bottom: 65px;
+        
+    } 
+    .pera h3{
+        font-size: 13px;
+        
+    }
+}
+
+@media (max-width:510px){
+    .head-2{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .pera{
+        margin: -4px;  
+    }
+    .per{
+        margin-bottom: 5px;  
+    } 
+    .pera p{
+        font-size: 12px;   
+    }
+}
+
+/* SECTION-3 RESPONSIVE */
+
+@media (max-width:580px) {
+    .head-3{
+        height: 75vh ;        
+    }
+    .box{
+        margin: 60px 0;
+    }
+    .box h1{ 
+        font-size: 28px;
+        text-align: center;
+    }
+    .box p{
+        font-size: 15px;   
+    }
+    .btan{
+        height: 40px;
+        width: 250px;
+        font-size: 14px;
+    }
+}
+@media (max-width:430px) {
+    .head-3{
+        height: 55vh ;        
+    }
+    .box{
+        margin: 30px 0;
+    }
+    .box h1{ 
+        font-size: 24px;
+    }
+    .box p{
+        font-size: 14px; 
+        text-align: center;  
+        width: 300px;
+        margin-left: 20px;
+    }
+    .btan{
+        height: 33px;
+        width: 150px;;
+        font-size: 12px;
+    }
+}
+@media (max-width:380px) {
+    .head-3{
+        height: 55vh ;        
+    }
+    .box{
+        margin: 15px 0px;
+    }
+    .box h1{ 
+        font-size: 20px;
+        width: 270px;
+        text-align: center;
+        margin-left: 20px;
+        /* margin: 0 20px; */
+    }
+    .box p{
+        font-size: 12px; 
+        width: 250px;
+        margin-left: 33px;
+        /* margin: 10px 20px;   */
+        margin-top: 10px;
+    }
+    .btan{
+        height: 30px;
+        margin-left: 94px;
+        width: 130px;
+        font-size: 10px;
+        /* margin: 0 90px; */
+    }
+}
+/* section 3 responsive is :end */
+
+
+/* section-4 RESPONSIVE */
+@media (max-width:1070px) {
+
+    .img img{
+        width: 380px;
+        height: 300px;
+    }
+    .get{
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px){
+    
+.img img{
+    width: 300px;
+    height: 290px;
+}
+.get{
+    width: 400px;
+    margin-right: 20px;
+}
+.get h3{
+    font-size: 17px;
+}
+.get p{
+    font-size: 14px;
+}
+}
+
+
+@media (max-width:725px){
+    
+    .img img{
+        width: 300px;
+        height: 280px;
+    }
+    .get{
+        width: 330px;
+    }
+    .get h3{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:650px){
+    .head-4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img img{
+        width: 300px;
+        height: 280px;
+    }
+    .get{
+        width: 290px;
+
+    }
+    .get h3{
+        font-size: 14px;
+    }
+   
+
+}
+
+@media (max-width:310px){
+    .img img{
+        width: 200px;
+        height: 200px;
+    }
+    .get{
+        width: 200px;
+        margin: 0;
+
+    }
+    .get h3{
+        font-size: 14px;
+    }
+   
+}
+
+/* section 4 RESPONSIVE is end here */
+
+/* section-5 RESPONSIVE is start here */
+@media (max-width:560px) {
+    .head-5{
+        height: 70vh;
+    }
+    .list{
+        margin-top: 40px;
+    }
+    .list h1{
+        font-size: 30px; 
+    }
+    .list p{
+        font-size: 15px;
+    }
+    .batn{
+        width: 220px;
+        height: 40px;
+        font-size: 15px;
+        margin: 20px 0 0 100px;
+    }
+    .sit{
+        font-size: 12px;
+        margin: 15px 0 0 122px;
+    }
+}
+
+@media (max-width:435px) {
+    .head-5{
+        height: 55vh;
+    }
+    .list{
+        margin-top: 15px;
+    }
+    .list h1{
+        font-size: 27px; 
+    }
+    .list p{
+        font-size: 14px;
+        width: 330px;
+    }
+    .batn{
+        width: 170px;
+        height: 35px;
+        font-size: 12px;
+        margin: 1px 0 0 75px;
+    }
+    .sit{
+        font-size: 11px;
+        margin: 10px 0 0 72px;
+    }
+}
+
+
+@media (max-width: 335px) {
+    .head-5{
+        height: 50vh;
+    }
+    .list{
+        margin-top: 5px;
+    }
+    .list h1{
+        font-size: 25px; 
+    }
+    .list p{
+        font-size: 13px;
+        width: 280px;
+    }
+    .batn{
+        width: 130px;
+        height: 28px;
+        font-size: 11px;
+        margin: 1px 0 0 73px;
+    }
+    .sit{
+        font-size: 11px;
+        margin: 10px 0 0 52px;
+    }
+}
+
+@media (max-width: 285px) {
+    .head-5{
+        height: 50vh;
+    }
+    .list{
+        margin-top: 5px;
+    }
+    .list h1{
+        font-size: 20px; 
+    }
+    .list p{
+        width: 250px;
+    }
+    .batn{
+        width: 110px;
+        font-size: 10px;
+        margin: 1px 0 0 69px;
+    }
+    .sit{
+        margin: 10px 0 0 64px;
+        width: 130px;
+        text-align: center;
+
+    }
+}
+/* section-5 is end here */
+
+/* section-6 is start here */
+@media (max-width:775px) {
+
+.head-6{
+    height: 100vh;
+}
+.col{
+    padding: 200px 0 0 150px;
+}
+
+}
+@media (max-width:630px) {
+    .head-6{
+        height: 80vh;
+    }
+    .col{
+        padding: 100px 0 0 120px;
+    }
+}
+@media (max-width:500px) {
+    .head-6{
+        height: 70vh;
+    }
+    .col{
+        padding: 70px 0 0 20px;
+    }
+    .col h1{
+        font-size: 27px;
+    }
+}
+
+@media (max-width:390px) {
+
+.battn{
+  
+    width: 115px;
+    height: 30px;
+}
+.col h1{
+    font-size: 25px;
+    width: 300px;
+}
+
+}
+
+@media (max-width:330px) {
+    .head-6{
+        display: flex;
+        justify-content: center;
+    }
+    .col{
+        padding: 60px 0px;
+    }
+    .battn{
+        margin-left: 30px;
+        
+    }
+    .col h1{
+        font-size: 20px;
+        width: 190px;
+        text-align: center;
+    }
+    .alt{
+        justify-content: center;
+    }
+    .alt p{
+        font-size: 12px;
+        text-align: center;
+        width: 150px;
+        margin: 7px 0;
+    }
+}
+
+/* section-8 RESPONSIVE is start here */
+
+@media (max-width:760px) {
+    .head-8{
+        height: 65vh;
+    }
+    .see{
+        padding: 35px  60px;
+    }
+
+}
+@media (max-width:620px) {
+    .head-8{
+        height: 60vh;
+    }
+    .see{
+        padding: 30px 0 0 40px;
+    }
+
+}
+
+@media (max-width:560px) {
+    .head-8{
+        height: 60vh;
+    }
+    .see{
+        padding: 25px 0 0 25px;
+    }
+
+}
+@media (max-width:485px) {
+    .head-8{
+        height: 50vh;
+    }
+    .see{
+        padding: 20px 0 0 20px;
+    }
+    .see h3{
+        font-size: 18px;
+    }
+    .see p{
+        font-size: 16px;
+        width: 280px;
+    }
+    
+    .butn{
+        margin-top: 10px;
+        font-size: 14px; 
+    }
+}
+
+
+@media (max-width:360px) {
+      
+.head-8{
+    height: 50vh;
+
+}
+
+.see h3{
+    font-size: 17px;
+}
+.see p{
+    font-size: 15px;
+    width: 240px;
+}
+
+.butn{ 
+    font-size: 13px;
+}
+
+}
+
+@media (max-width:280px) {
+      
+    .head-8{
+        height: 50vh;
+    }
+
+    .see h3{
+        font-size: 16px;
+        margin-left: 55px;
+    }
+    .see p{
+        font-size: 15px;
+        text-align: center;
+        width: 200px;
+        margin-left: 17px;
+    }
+    
+    .butn{ 
+        font-size: 13px;
+        margin-left: 54px;
+    }
+    
+}
+    
+@media (max-width:650px) {
+    .head-9{
+    height: 50vh;
+}
+.line{
+    padding: 30px 50px;
+}
+}
+
+@media (max-width:320px) {
+    .head-9{
+    height: 50vh;
+}
+.line{
+    padding: 30px 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
